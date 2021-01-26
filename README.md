@@ -1,1 +1,3 @@
-# random name generator for mythical bow
+# Random Name Generator 
+for a mythical bow
+
