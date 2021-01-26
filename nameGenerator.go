@@ -12,12 +12,11 @@ func main(){
 	// array of last names to pick from
 	lastName := [] string {"Thunderbolt", "Arrow", "Shard", "Music", "Weapon", "Bow", "String", "Fury", "Hit", "Razor", "Ice", "Fire", "Aim", "Flame", "Power", "Magic"}	
 	
+	// use time for the seed
 	rand.Seed(time.Now().UnixNano())
 		
 		// generate random number between 0 and length of array
 		randomln := rand.Intn(len(lastName))
-		// use time for the seed
-		// rand.Seed(time.Now().UnixNano())
 		// generate random number between 0 and length of array
 		randomfn := rand.Intn(len(firstName))
 		// use random number to select last name from array
